@@ -25,6 +25,7 @@ function loadQuestion() {
 }
 function checkAnswer(option) {
 
+
   const buttons = document.querySelectorAll("#options button");
 
   buttons.forEach(btn => {
@@ -43,6 +44,10 @@ function checkAnswer(option) {
   if(option === questions[currentQuestion].answer) {
     score++;
   }
+}
+function startQuiz() {
+    document.querySelector(".start-screen").style.display = "none";
+    document.getElementById("quiz-container").style.display = "block";
 }
 
 function nextQuestion() {
