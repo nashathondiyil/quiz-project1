@@ -65,15 +65,12 @@ button:hover {
 
     color: white;
 
-    width: 70%;
-
-    margin: 50px auto;
-
-    padding: 30px;
-
-    border-radius: 20px;
-
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.774);
+    width:100%;
+    min-height:100vh;
+    margin:0;
+    border-radius:0;
+    box-shadow:none;
+    padding:30px;
 }
 
 
@@ -144,4 +141,8 @@ button:hover {
     background:#085cdb;
     color:rgb(12, 11, 11);
     cursor:pointer;
+}
+body{
+    margin:0;
+    background:black;
 }
